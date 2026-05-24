@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Román Pettenon RPIS - Soluciones Eléctricas Industriales. Diagnóstico avanzado, automatización y mantenimiento especializado para la industria, el agro y el sector público en Argentina.">
+<meta name="keywords" content="electricista industrial argentina, automatización PLC, tableros eléctricos, mantenimiento industrial, RPIS, Román Pettenon">
+<meta name="author" content="Román Pettenon RPIS">
+<meta property="og:title" content="Román Pettenon | RPIS — Soluciones Eléctricas Industriales">
+<meta property="og:description" content="Ingeniería y Soluciones Eléctricas Industriales de Alta Precisión. Argentina.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#FFE600">
+<title>Román Pettenon | RPIS — Soluciones Eléctricas Industriales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- MOBILE OVERLAY -->
+<div class="mobile-overlay" id="mobileOverlay" onclick="closeMobileNav()"></div>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" onclick="closeMobileNav()">✕</button>
+  <a href="#inicio" onclick="closeMobileNav()">Inicio</a>
+  <a href="#nosotros" onclick="closeMobileNav()">Nosotros</a>
+  <a href="#servicios" onclick="closeMobileNav()">Servicios</a>
+  <a href="#proyectos" onclick="closeMobileNav()">Proyectos</a>
+  <a href="#contacto" onclick="closeMobileNav()">Contacto</a>
+</div>
+
+<!-- HEADER -->
+<header id="mainHeader">
+  <a href="#inicio" class="logo">
+    <div class="logo-main">Román Pettenon <span>|</span> RPIS</div>
+    <div class="logo-sub">Soluciones Eléctricas Industriales</div>
+  </a>
+  <nav>
+    <div class="nav-links" style="display:flex;align-items:center;gap:2.5rem;">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto" class="nav-cta">Contactar</a>
+    </div>
+    <button class="burger" id="burgerBtn" onclick="openMobileNav()" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- HERO -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<section id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">Ingeniería Industrial · Argentina</div>
+    <h1>
+      Ingeniería y<br>Soluciones Eléctricas
+      <span class="accent-line">Industriales</span>
+    </h1>
+    <p class="hero-sub">
+      Diagnóstico avanzado, automatización y mantenimiento especializado para la industria, el agro y el sector público.
+    </p>
+    <div class="hero-actions">
+      <a href="#contacto" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path></svg>
+        Solicitar Diagnóstico
+      </a>
+      <a href="#servicios" class="btn-secondary">
+        Ver Servicios
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-number">+15</div>
+      <div class="stat-label">Años de<br>experiencia</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">+80</div>
+      <div class="stat-label">Proyectos<br>completados</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3</div>
+      <div class="stat-label">Sectores<br>industriales</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    scroll
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- NOSOTROS -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<section id="nosotros">
+  <div class="nosotros-inner">
+    <div class="nosotros-left reveal">
+      <div class="nosotros-number">RPIS</div>
+      <div class="section-tag">Quiénes Somos</div>
+      <h2 class="section-title">Más de una década de<br>precisión eléctrica</h2>
+      <div class="divider"></div>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-icon">⚡</div>
+          <div class="pillar-label">Seguridad</div>
+          <p>Normas nacionales e internacionales en cada intervención.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🔧</div>
+          <div class="pillar-label">Precisión</div>
+          <p>Diagnóstico técnico riguroso con instrumentación avanzada.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">📐</div>
+          <div class="pillar-label">Innovación</div>
+          <p>Automatización y tecnología PLC de última generación.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🏭</div>
+          <div class="pillar-label">Eficiencia</div>
+          <p>Optimización de procesos y reducción de tiempos de parada.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="nosotros-right reveal reveal-delay-2">
+      <p>
+        <strong>Román Pettenon – RPIS</strong> es una empresa argentina de ingeniería eléctrica industrial con más de 15 años de trayectoria ininterrumpida, construida sobre la base del trabajo técnico riguroso, la ética profesional y el compromiso con cada cliente.
+      </p>
+      <p>
+        Desde nuestros primeros proyectos en plantas de procesamiento hasta los grandes desafíos de <strong>automatización agroindustrial y modernización de infraestructura pública</strong>, hemos desarrollado una metodología propia que combina el diagnóstico profundo de sistemas eléctricos con la implementación de soluciones de alta precisión.
+      </p>
+      <p>
+        Nuestro enfoque integra las más modernas tecnologías de <strong>programación PLC, tableros de control y sistemas de potencia</strong>, con un conocimiento territorial profundo del sector productivo argentino. Entendemos las particularidades de la industria, el agro y los organismos del estado, y diseñamos soluciones que responden a sus tiempos, presupuestos y exigencias operativas.
+      </p>
+      <p>
+        En RPIS, cada instalación, cada tablero y cada intervención de mantenimiento es ejecutada con los más altos estándares de <strong>seguridad eléctrica y eficiencia energética</strong>. Porque en la industria, la confiabilidad no es opcional: es la base de todo.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SERVICIOS -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<section id="servicios">
+  <div class="servicios-header reveal">
+    <div>
+      <div class="section-tag">Nuestros Servicios</div>
+      <h2 class="section-title">Tres pilares de<br>excelencia técnica</h2>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <div class="cards-grid">
+    <!-- CARD 1 -->
+    <div class="card reveal reveal-delay-1">
+      <div class="card-num">01</div>
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="7 8 12 13 17 8"/></svg>
+      </div>
+      <h3>Soluciones Eléctricas Industriales</h3>
+      <p>Diseño, montaje y puesta en marcha de instalaciones eléctricas de potencia para plantas industriales. Proyectamos y construimos tableros de distribución, sistemas de baja y media tensión, y redes de cableado estructurado con los más altos estándares de calidad y seguridad.</p>
+      <div class="card-tags">
+        <span class="tag">Tableros BT/MT</span>
+        <span class="tag">Instalaciones</span>
+        <span class="tag">Potencia</span>
+        <span class="tag">Proyectos Llave en Mano</span>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card reveal reveal-delay-2">
+      <div class="card-num">02</div>
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/><path d="M15.54 8.46a5 5 0 010 7.07M8.46 8.46a5 5 0 000 7.07"/></svg>
+      </div>
+      <h3>Diagnóstico de Fallas y Automatización</h3>
+      <p>Identificación precisa de fallas eléctricas y electrónicas con equipos de diagnóstico de última generación. Programación e implementación de sistemas PLC para la automatización de procesos industriales, mejorando la productividad y reduciendo tiempos de parada no programados.</p>
+      <div class="card-tags">
+        <span class="tag">PLC Siemens</span>
+        <span class="tag">SCADA</span>
+        <span class="tag">Diagnóstico</span>
+        <span class="tag">Optimización</span>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card reveal reveal-delay-3">
+      <div class="card-num">03</div>
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+      </div>
+      <h3>Mantenimiento Preventivo y Correctivo</h3>
+      <p>Programas de mantenimiento sistemático para plantas industriales, establecimientos del sector agropecuario e infraestructura del sector público. Garantizamos la continuidad operativa de sus equipos e instalaciones mediante planes de mantenimiento a medida y respuesta rápida ante fallas críticas.</p>
+      <div class="card-tags">
+        <span class="tag">Industria</span>
+        <span class="tag">Agro</span>
+        <span class="tag">Sector Público</span>
+        <span class="tag">Soporte 24/7</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- PROYECTOS -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<section id="proyectos">
+  <div class="proyectos-header reveal">
+    <div>
+      <div class="section-tag">Casos de Éxito</div>
+      <h2 class="section-title">Proyectos ejecutados<br>con precisión</h2>
+      <div class="divider"></div>
+    </div>
+    <a href="#contacto" class="proyectos-link">
+      Ver todos los proyectos
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </a>
+  </div>
+
+  <div class="projects-grid reveal">
+    <!-- Proyecto 1 -->
+    <div class="project-card">
+      <div class="project-bg">
+        <svg width="100%" height="100%" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="450" fill="#141418"/>
+          <!-- Circuit board pattern -->
+          <line x1="0" y1="225" x2="800" y2="225" stroke="#FFE600" stroke-width="0.5" opacity="0.15"/>
+          <line x1="400" y1="0" x2="400" y2="450" stroke="#FFE600" stroke-width="0.5" opacity="0.15"/>
+          <rect x="160" y="80" width="160" height="100" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.12"/>
+          <rect x="180" y="100" width="120" height="60" fill="#FFE600" opacity="0.04"/>
+          <circle cx="240" cy="130" r="25" fill="none" stroke="#FFE600" stroke-width="1.5" opacity="0.18"/>
+          <line x1="320" y1="130" x2="460" y2="130" stroke="#FFE600" stroke-width="1" opacity="0.1"/>
+          <circle cx="460" cy="130" r="4" fill="#FFE600" opacity="0.3"/>
+          <rect x="460" y="100" width="80" height="60" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.2"/>
+          <line x1="500" y1="160" x2="500" y2="240" stroke="#0066ff" stroke-width="1" opacity="0.15"/>
+          <circle cx="500" cy="240" r="6" fill="none" stroke="#0066ff" stroke-width="1.5" opacity="0.25"/>
+          <line x1="506" y1="240" x2="620" y2="240" stroke="#0066ff" stroke-width="1" opacity="0.15"/>
+          <rect x="620" y="210" width="60" height="60" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.18"/>
+          <!-- Diagonal lines -->
+          <line x1="0" y1="0" x2="100" y2="100" stroke="#FFE600" stroke-width="0.3" opacity="0.08"/>
+          <line x1="700" y1="350" x2="800" y2="450" stroke="#FFE600" stroke-width="0.3" opacity="0.08"/>
+          <line x1="200" y1="300" x2="320" y2="420" stroke="#FFE600" stroke-width="0.5" opacity="0.06"/>
+          <!-- Grid dots -->
+          <circle cx="100" cy="100" r="2" fill="#FFE600" opacity="0.2"/>
+          <circle cx="200" cy="80" r="2" fill="#FFE600" opacity="0.15"/>
+          <circle cx="320" cy="130" r="3" fill="#FFE600" opacity="0.3"/>
+          <circle cx="620" cy="210" r="3" fill="#0066ff" opacity="0.35"/>
+          <circle cx="680" cy="270" r="2" fill="#0066ff" opacity="0.2"/>
+          <!-- Central glow -->
+          <ellipse cx="400" cy="225" rx="200" ry="120" fill="url(#g1)" opacity="0.25"/>
+          <defs>
+            <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#0066ff" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#0066ff" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="project-overlay"></div>
+      <div class="project-num">01/04</div>
+      <div class="project-content">
+        <div class="project-cat">Automatización · Agroindustria</div>
+        <div class="project-title">Automatización de Planta de Acopio Cerealero</div>
+        <div class="project-desc">Implementación de sistema PLC Siemens S7-1200 para control total de cintas transportadoras, elevadores y secadoras. Reducción del 38% en tiempo de operación y eliminación de intervención manual en procesos críticos.</div>
+      </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="project-card">
+      <div class="project-bg">
+        <svg width="100%" height="100%" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="450" fill="#1c1c22"/>
+          <!-- Electrical panel schematic -->
+          <rect x="50" y="50" width="700" height="350" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.08"/>
+          <!-- Bus bars -->
+          <rect x="80" y="80" width="640" height="8" fill="#FFE600" opacity="0.12"/>
+          <rect x="80" y="362" width="640" height="8" fill="#FFE600" opacity="0.12"/>
+          <!-- Circuit breakers vertical lines -->
+          <line x1="120" y1="88" x2="120" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="200" y1="88" x2="200" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="280" y1="88" x2="280" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="360" y1="88" x2="360" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="440" y1="88" x2="440" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="520" y1="88" x2="520" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="600" y1="88" x2="600" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <line x1="680" y1="88" x2="680" y2="362" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <!-- Component rectangles -->
+          <rect x="100" y="130" width="40" height="60" fill="#FFE600" opacity="0.07" stroke="#FFE600" stroke-width="0.8" opacity2="0.15"/>
+          <rect x="180" y="130" width="40" height="60" fill="#FFE600" opacity="0.07" stroke="#FFE600" stroke-width="0.8"/>
+          <rect x="260" y="110" width="40" height="80" fill="#0066ff" opacity="0.1" stroke="#0066ff" stroke-width="0.8" opacity2="0.2"/>
+          <rect x="340" y="130" width="40" height="60" fill="#FFE600" opacity="0.07" stroke="#FFE600" stroke-width="0.8"/>
+          <rect x="420" y="130" width="40" height="60" fill="#FFE600" opacity="0.07" stroke="#FFE600" stroke-width="0.8"/>
+          <rect x="500" y="110" width="40" height="80" fill="#0066ff" opacity="0.1" stroke="#0066ff" stroke-width="0.8"/>
+          <rect x="580" y="130" width="40" height="60" fill="#FFE600" opacity="0.07" stroke="#FFE600" stroke-width="0.8"/>
+          <rect x="660" y="130" width="40" height="60" fill="#FFE600" opacity="0.07" stroke="#FFE600" stroke-width="0.8"/>
+          <!-- Glow on one component -->
+          <rect x="260" y="110" width="40" height="80" fill="#0066ff" opacity="0.08"/>
+          <ellipse cx="280" cy="150" rx="30" ry="50" fill="url(#g2)" opacity="0.4"/>
+          <defs>
+            <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#0066ff" stop-opacity="0.6"/>
+              <stop offset="100%" stop-color="#0066ff" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <!-- Measurement indicators -->
+          <circle cx="120" cy="270" r="18" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <circle cx="200" cy="270" r="18" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <circle cx="360" cy="270" r="18" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <line x1="107" y1="270" x2="133" y2="270" stroke="#FFE600" stroke-width="1" opacity="0.3"/>
+          <line x1="120" y1="257" x2="120" y2="283" stroke="#FFE600" stroke-width="1" opacity="0.3"/>
+        </svg>
+      </div>
+      <div class="project-overlay"></div>
+      <div class="project-num">02/04</div>
+      <div class="project-content">
+        <div class="project-cat">Modernización · Industria</div>
+        <div class="project-title">Modernización de Tablero de Potencia Principal</div>
+        <div class="project-desc">Reemplazo integral de tablero de distribución de media tensión en planta frigorífica. Instalación de sistema de gestión de energía con telemetría en tiempo real, logrando un 22% de ahorro energético mensual.</div>
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="project-card">
+      <div class="project-bg">
+        <svg width="100%" height="100%" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="450" fill="#141418"/>
+          <!-- Network topology -->
+          <circle cx="400" cy="225" r="40" fill="none" stroke="#FFE600" stroke-width="1.5" opacity="0.25"/>
+          <circle cx="400" cy="225" r="8" fill="#FFE600" opacity="0.3"/>
+          <!-- Nodes -->
+          <circle cx="150" cy="120" r="20" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.3"/>
+          <circle cx="650" cy="120" r="20" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.3"/>
+          <circle cx="150" cy="330" r="20" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.3"/>
+          <circle cx="650" cy="330" r="20" fill="none" stroke="#0066ff" stroke-width="1" opacity="0.3"/>
+          <circle cx="240" cy="225" r="15" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <circle cx="560" cy="225" r="15" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <circle cx="400" cy="100" r="15" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <circle cx="400" cy="350" r="15" fill="none" stroke="#FFE600" stroke-width="1" opacity="0.2"/>
+          <!-- Connections -->
+          <line x1="170" y1="120" x2="385" y2="210" stroke="#FFE600" stroke-width="0.8" opacity="0.12"/>
+          <line x1="630" y1="120" x2="415" y2="210" stroke="#FFE600" stroke-width="0.8" opacity="0.12"/>
+          <line x1="170" y1="330" x2="385" y2="240" stroke="#FFE600" stroke-width="0.8" opacity="0.12"/>
+          <line x1="630" y1="330" x2="415" y2="240" stroke="#FFE600" stroke-width="0.8" opacity="0.12"/>
+          <line x1="255" y1="225" x2="360" y2="225" stroke="#0066ff" stroke-width="1" opacity="0.2"/>
+          <line x1="440" y1="225" x2="545" y2="225" stroke="#0066ff" stroke-width="1" opacity="0.2"/>
+          <line x1="400" y1="115" x2="400" y2="185" stroke="#0066ff" stroke-width="1" opacity="0.2"/>
+          <line x1="400" y1="265" x2="400" y2="335" stroke="#0066ff" stroke-width="1" opacity="0.2"/>
+          <!-- Center glow -->
+          <ellipse cx="400" cy="225" rx="150" ry="100" fill="url(#g3)" opacity="0.15"/>
+          <defs>
+            <radialGradient id="g3" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#FFE600" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#FFE600" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <!-- Data flow dots -->
+          <circle cx="300" cy="215" r="3" fill="#FFE600" opacity="0.5"/>
+          <circle cx="500" cy="235" r="3" fill="#FFE600" opacity="0.5"/>
+          <circle cx="400" cy="160" r="3" fill="#0066ff" opacity="0.6"/>
+          <!-- Corner decorations -->
+          <rect x="20" y="20" width="40" height="40" fill="none" stroke="#FFE600" stroke-width="0.5" opacity="0.1"/>
+          <rect x="740" y="390" width="40" height="40" fill="none" stroke="#FFE600" stroke-width="0.5" opacity="0.1"/>
+        </svg>
+      </div>
+      <div class="project-overlay"></div>
+      <div class="project-num">03/04</div>
+      <div class="project-content">
+        <div class="project-cat">Red Eléctrica · Sector Público</div>
+        <div class="project-title">Relevamiento y Reacondicionamiento de Red Eléctrica Municipal</div>
+        <div class="project-desc">Diagnóstico completo e intervención sobre la red de distribución interna de un complejo municipal. Actualización de centros de transformación, protecciones y cableado, cumplimentando normativa vigente y mejorando la calidad del suministro.</div>
+      </div>
+    </div>
+
+    <!-- Proyecto 4 -->
+    <div class="project-card">
+      <div class="project-bg">
+        <svg width="100%" height="100%" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="450" fill="#1c1c22"/>
+          <!-- Factory floor plan aesthetic -->
+          <!-- Main outline -->
+          <rect x="60" y="60" width="680" height="330" fill="none" stroke="#FFE600" stroke-width="0.8" opacity="0.1"/>
+          <!-- Machinery blocks -->
+          <rect x="100" y="100" width="120" height="80" fill="#FFE600" opacity="0.04" stroke="#FFE600" stroke-width="0.8" opacity2="0.15"/>
+          <rect x="100" y="220" width="120" height="80" fill="#FFE600" opacity="0.04" stroke="#FFE600" stroke-width="0.8" opacity2="0.15"/>
+          <rect x="580" y="100" width="120" height="80" fill="#FFE600" opacity="0.04" stroke="#FFE600" stroke-width="0.8" opacity2="0.15"/>
+          <rect x="580" y="220" width="120" height="80" fill="#FFE600" opacity="0.04" stroke="#FFE600" stroke-width="0.8" opacity2="0.15"/>
+          <!-- Central control -->
+          <rect x="300" y="140" width="200" height="170" fill="none" stroke="#0066ff" stroke-width="1.5" opacity="0.3"/>
+          <rect x="320" y="160" width="160" height="130" fill="#0066ff" opacity="0.06"/>
+          <!-- Glow on center -->
+          <ellipse cx="400" cy="225" rx="120" ry="90" fill="url(#g4)" opacity="0.2"/>
+          <defs>
+            <radialGradient id="g4" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#0066ff" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#0066ff" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <!-- Conduit lines -->
+          <line x1="220" y1="140" x2="300" y2="200" stroke="#FFE600" stroke-width="1" opacity="0.12"/>
+          <line x1="220" y1="260" x2="300" y2="260" stroke="#FFE600" stroke-width="1" opacity="0.12"/>
+          <line x1="500" y1="200" x2="580" y2="140" stroke="#FFE600" stroke-width="1" opacity="0.12"/>
+          <line x1="500" y1="260" x2="580" y2="260" stroke="#FFE600" stroke-width="1" opacity="0.12"/>
+          <!-- Status indicators -->
+          <circle cx="160" cy="140" r="5" fill="#FFE600" opacity="0.4"/>
+          <circle cx="160" cy="260" r="5" fill="#FFE600" opacity="0.4"/>
+          <circle cx="640" cy="140" r="5" fill="#0066ff" opacity="0.5"/>
+          <circle cx="640" cy="260" r="5" fill="#0066ff" opacity="0.5"/>
+          <!-- Cross marks on machinery -->
+          <line x1="130" y1="120" x2="190" y2="180" stroke="#FFE600" stroke-width="0.5" opacity="0.1"/>
+          <line x1="190" y1="120" x2="130" y2="180" stroke="#FFE600" stroke-width="0.5" opacity="0.1"/>
+          <!-- Measurement lines -->
+          <line x1="60" y1="225" x2="100" y2="225" stroke="#FFE600" stroke-width="0.5" opacity="0.12"/>
+          <line x1="700" y1="225" x2="740" y2="225" stroke="#FFE600" stroke-width="0.5" opacity="0.12"/>
+          <!-- Bottom dimension -->
+          <line x1="60" y1="410" x2="740" y2="410" stroke="#FFE600" stroke-width="0.5" opacity="0.08"/>
+          <line x1="60" y1="405" x2="60" y2="415" stroke="#FFE600" stroke-width="0.5" opacity="0.12"/>
+          <line x1="740" y1="405" x2="740" y2="415" stroke="#FFE600" stroke-width="0.5" opacity="0.12"/>
+        </svg>
+      </div>
+      <div class="project-overlay"></div>
+      <div class="project-num">04/04</div>
+      <div class="project-content">
+        <div class="project-cat">Control Industrial · Agro</div>
+        <div class="project-title">Sistema de Control de Riego por Automatización PLC</div>
+        <div class="project-desc">Diseño e instalación de sistema automático de control de riego para establecimiento agroindustrial de 1.200 ha. Integración de sensores de humedad, VFDs y HMI táctil con gestión remota vía SCADA, reduciendo el consumo hídrico en un 31%.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- CONTACTO -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<section id="contacto">
+  <div class="contacto-inner">
+    <div class="contacto-left reveal">
+      <div class="section-tag">Contacto</div>
+      <h2 class="section-title">Hablemos de<br>su proyecto</h2>
+      <div class="divider"></div>
+
+      <p style="font-size:0.95rem;color:var(--mist);line-height:1.75;margin-bottom:1rem;">
+        Cuéntenos su desafío técnico. Nuestro equipo analizará su situación y le brindará un diagnóstico preliminar sin costo, con soluciones concretas y tiempos reales de implementación.
+      </p>
+
+      <div class="contact-info-items">
+        <div class="contact-item">
+          <div class="contact-item-icon">📱</div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">Teléfono / WhatsApp</div>
+            <div class="contact-item-value">
+              <a href="tel:+543585187423">+54 358 518-7423</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">Zona de Cobertura</div>
+            <div class="contact-item-value">Argentina</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">🕐</div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">Disponibilidad</div>
+            <div class="contact-item-value">Lun–Vie 8:00–18:00</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://wa.me/543585187423" target="_blank" class="whatsapp-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.557 4.118 1.528 5.852L.057 24l6.304-1.654A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.814 9.814 0 01-5.003-1.366l-.36-.214-3.724.977.995-3.63-.233-.373A9.81 9.81 0 012.182 12c0-5.421 4.397-9.818 9.818-9.818 5.421 0 9.818 4.397 9.818 9.818 0 5.421-4.397 9.818-9.818 9.818z"/></svg>
+        Escribir por WhatsApp
+      </a>
+    </div>
+
+    <div class="contacto-right reveal reveal-delay-2">
+      <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre / Empresa *</label>
+            <input type="text" id="nombre" placeholder="Ej: Industrias S.A." required>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="+54 ...">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico *</label>
+          <input type="email" id="email" placeholder="contacto@empresa.com" required>
+        </div>
+        <div class="form-group">
+          <label for="servicio">Tipo de Servicio</label>
+          <select id="servicio">
+            <option value="" disabled selected>Seleccionar servicio...</option>
+            <option>Soluciones Eléctricas Industriales</option>
+            <option>Diagnóstico de Fallas y Automatización</option>
+            <option>Mantenimiento Preventivo y Correctivo</option>
+            <option>Proyecto llave en mano</option>
+            <option>Consulta general</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje / Descripción del Proyecto *</label>
+          <textarea id="mensaje" placeholder="Describa brevemente su necesidad técnica o el proyecto que desea encarar..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          Enviar Consulta
+        </button>
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        <div class="form-success-icon">⚡</div>
+        <h4>¡Consulta enviada con éxito!</h4>
+        <p style="font-size:0.9rem;color:var(--steel);margin-top:0.5rem;">Nos pondremos en contacto con usted a la brevedad. También puede escribirnos directamente por WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- FOOTER -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand-name">Román Pettenon <span>|</span> RPIS</div>
+      <div class="footer-brand-sub">Soluciones Eléctricas Industriales</div>
+      <p class="footer-desc">Ingeniería eléctrica de alta precisión para la industria, el agro y el sector público. Argentina.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Navegación</div>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Quiénes Somos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Servicios</div>
+      <ul>
+        <li><a href="#servicios">Soluciones Eléctricas</a></li>
+        <li><a href="#servicios">Diagnóstico y Fallas</a></li>
+        <li><a href="#servicios">Automatización PLC</a></li>
+        <li><a href="#servicios">Mantenimiento</a></li>
+        <li><a href="#contacto">Solicitar Diagnóstico</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 <span>Román Pettenon RPIS</span> — Todos los derechos reservados.</div>
+    <div class="footer-copy">Argentina · Ingeniería Eléctrica Industrial</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
